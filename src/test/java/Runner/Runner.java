@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 glue={"StepDef"},
 //monochrome=true, // to give report in console with readable format
 //plugin ={"html:report/webReport"} ,// its give the report in asked format
-tags="@Regression") // can specify which tag to run from multipls feature files
+tags="@Smoke") // can specify which tag to run from multipls feature files
 ////tags="@Negative or @Smoke")
 
 public class Runner {
