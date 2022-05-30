@@ -1,6 +1,6 @@
 Feature: To Open Orange Hrm Website and login
 
-@Smoke
+@Smoke @Regression
 Scenario: Open Orange HRM with right username and password
 Given User enters the Orange HRM url
 When  Enters the Username "Admin" and password "admin123"
